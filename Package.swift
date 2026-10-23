@@ -18,7 +18,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/united-adstir/adstirsdk-swift-package.git",
-            exact: "2.17.8"
+            exact: "2.17.9"
         )
     ],
     targets: [
@@ -33,8 +33,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AdstirAdsAdMobAdapter",
-            url: "https://dl.ad-stir.com/sdk/spm/2.17.8/AdMobMediationAdapterAdstirAds.xcframework.zip",
-            checksum: "d8e83f0bbc22e4ec9c5018c95031d425b4ef133f6a82ffd95b184d8676356218"
+            url: "https://dl.ad-stir.com/sdk/spm/2.17.9/AdMobMediationAdapterAdstirAds.xcframework.zip",
+            checksum: "7d044fdea9fbb9550c62d2be77681b85e68aa05fd84219891069b8dba481095d"
         ),
     ]
 )
